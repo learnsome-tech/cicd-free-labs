@@ -1,0 +1,27 @@
+{
+  "lab": "m01l04-03",
+  "lesson": "m01l04",
+  "title": "Filters: branches, tags and paths",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint app-ci.yml",
+  "main": "app-ci.yml",
+  "files": [
+    "app-ci.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint app-ci.yml"
+    }
+  ],
+  "note": null
+}

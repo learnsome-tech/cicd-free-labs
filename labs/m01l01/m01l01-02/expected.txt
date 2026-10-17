@@ -1,0 +1,5 @@
+step one: test
+ok
+step two: build
+step three: package
+artifact: dist/app.tar

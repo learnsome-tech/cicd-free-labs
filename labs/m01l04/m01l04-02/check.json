@@ -1,0 +1,27 @@
+{
+  "lab": "m01l04-02",
+  "lesson": "m01l04",
+  "title": "One workflow, four ways in",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint pipeline.yml",
+  "main": "pipeline.yml",
+  "files": [
+    "pipeline.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint pipeline.yml"
+    }
+  ],
+  "note": null
+}

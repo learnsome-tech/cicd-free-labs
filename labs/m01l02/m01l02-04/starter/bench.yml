@@ -1,0 +1,11 @@
+name: bench
+on: workflow_dispatch
+jobs:
+  measure:
+    runs-on: [self-hosted, linux, x64]
+    steps:
+      - uses: actions/checkout@v5
+      - name: run the benchmark on hardware we own
+        run: |
+          echo "host: private, inside our own network"
+          bash tests/run.sh

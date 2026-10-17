@@ -1,0 +1,6 @@
+ci.yml
+name: pipeline
+on:
+  push:
+    branches: [main]
+9

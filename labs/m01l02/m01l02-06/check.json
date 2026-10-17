@@ -1,0 +1,26 @@
+{
+  "lab": "m01l02-06",
+  "lesson": "m01l02",
+  "title": "What a fresh workspace contains",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "CI=true RUNNER_OS=Linux RUNNER_ARCH=X64 GITHUB_WORKSPACE=/home/runner/work/shipping-service/shipping-service bash session-what-a-fresh-workspace-contains.sh",
+  "main": "session-what-a-fresh-workspace-contains.sh",
+  "files": [
+    ".git/HEAD",
+    "Dockerfile",
+    "app/main.py",
+    "k8s/deployment.yaml",
+    "k8s/service.yaml",
+    "run.sh",
+    "session-what-a-fresh-workspace-contains.sh",
+    "tests/run.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "bash"
+  ],
+  "note": null
+}

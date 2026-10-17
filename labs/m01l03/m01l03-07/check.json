@@ -1,0 +1,27 @@
+{
+  "lab": "m01l03-07",
+  "lesson": "m01l03",
+  "title": "A tag can move, a commit cannot",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint pin.yml",
+  "main": "pin.yml",
+  "files": [
+    "pin.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint pin.yml"
+    }
+  ],
+  "note": null
+}

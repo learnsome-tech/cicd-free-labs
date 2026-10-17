@@ -1,0 +1,20 @@
+{
+  "lab": "m01l01-05",
+  "lesson": "m01l01",
+  "title": "The pipeline is a file in your repository",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash session-the-pipeline-is-a-file-in-your-repository.sh",
+  "main": "session-the-pipeline-is-a-file-in-your-repository.sh",
+  "files": [
+    ".github/workflows/ci.yml",
+    "session-the-pipeline-is-a-file-in-your-repository.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "bash"
+  ],
+  "note": null
+}

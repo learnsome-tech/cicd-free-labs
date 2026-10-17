@@ -1,0 +1,12 @@
+name: pinning
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # short and readable, but moved onto every new release
+      - uses: actions/checkout@v5
+      # exactly one tree of code, and only ever that one
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'

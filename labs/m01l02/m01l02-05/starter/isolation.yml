@@ -1,0 +1,22 @@
+name: isolation
+on: push
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: report the machine and leave a note
+        run: |
+          echo "runner os: $RUNNER_OS"
+          echo "workspace: $GITHUB_WORKSPACE"
+          echo "job one was here" > note.txt
+  second:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: look for the note
+        run: |
+          if [ -f note.txt ]; then
+            echo "the note survived"; exit 1
+          fi
+          echo "no note: another machine, another workspace"

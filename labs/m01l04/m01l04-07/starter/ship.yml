@@ -1,0 +1,16 @@
+name: ship
+on:
+  push:
+    branches: [main]
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy the new commit
+        env:
+          REF: ${{ github.ref }}
+          SHA: ${{ github.sha }}
+        run: echo "deploying $SHA to $REF"

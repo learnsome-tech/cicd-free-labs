@@ -1,0 +1,19 @@
+{
+  "lab": "m01l03-05",
+  "lesson": "m01l03",
+  "title": "The outputs file really is just a file",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash session-the-outputs-file-really-is-just-a-file.sh",
+  "main": "session-the-outputs-file-really-is-just-a-file.sh",
+  "files": [
+    "session-the-outputs-file-really-is-just-a-file.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "transcript",
+  "requires": [
+    "bash"
+  ],
+  "note": null
+}

@@ -1,0 +1,27 @@
+{
+  "lab": "m01l01-04",
+  "lesson": "m01l01",
+  "title": "The same three steps, as a workflow",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint ci.yml",
+  "main": "ci.yml",
+  "files": [
+    "ci.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint ci.yml"
+    }
+  ],
+  "note": null
+}

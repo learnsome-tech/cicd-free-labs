@@ -1,0 +1,7 @@
+event: pull_request
+actor: octocat
+ref: refs/pull/42/merge
+sha: 9f2c1ab
+action: synchronize
+pr: 42 onto main
+fork: true

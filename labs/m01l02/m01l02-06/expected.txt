@@ -1,0 +1,8 @@
+Linux on X64
+/home/runner/work/shipping-service/shipping-service
+true
+app/main.py
+tests/run.sh
+deployment.yaml
+service.yaml
+ref: refs/heads/main

@@ -1,0 +1,27 @@
+{
+  "lab": "m01l02-05",
+  "lesson": "m01l02",
+  "title": "Jobs do not share a filesystem",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint isolation.yml",
+  "main": "isolation.yml",
+  "files": [
+    "isolation.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint isolation.yml"
+    }
+  ],
+  "note": null
+}

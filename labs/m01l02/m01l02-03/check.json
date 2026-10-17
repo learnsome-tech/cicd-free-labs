@@ -1,0 +1,27 @@
+{
+  "lab": "m01l02-03",
+  "lesson": "m01l02",
+  "title": "Two jobs, two machines",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint build.yml",
+  "main": "build.yml",
+  "files": [
+    "build.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint build.yml"
+    }
+  ],
+  "note": null
+}

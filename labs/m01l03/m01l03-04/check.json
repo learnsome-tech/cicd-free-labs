@@ -1,0 +1,27 @@
+{
+  "lab": "m01l03-04",
+  "lesson": "m01l03",
+  "title": "A step writes a value, later steps read it",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint outputs.yml",
+  "main": "outputs.yml",
+  "files": [
+    "outputs.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint outputs.yml"
+    }
+  ],
+  "note": null
+}

@@ -1,0 +1,27 @@
+{
+  "lab": "m01l04-07",
+  "lesson": "m01l04",
+  "title": "Two deploys racing, and the fix",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint ship.yml",
+  "main": "ship.yml",
+  "files": [
+    "ship.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint ship.yml"
+    }
+  ],
+  "note": null
+}

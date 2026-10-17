@@ -1,0 +1,27 @@
+{
+  "lab": "m01l02-04",
+  "lesson": "m01l02",
+  "title": "Self-hosted: your hardware, your risk",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint bench.yml",
+  "main": "bench.yml",
+  "files": [
+    "bench.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint bench.yml"
+    }
+  ],
+  "note": null
+}

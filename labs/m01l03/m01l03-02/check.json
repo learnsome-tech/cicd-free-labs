@@ -1,0 +1,27 @@
+{
+  "lab": "m01l03-02",
+  "lesson": "m01l03",
+  "title": "One workflow, three jobs, two of them at once",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint ci.yml",
+  "main": "ci.yml",
+  "files": [
+    "ci.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint ci.yml"
+    }
+  ],
+  "note": null
+}

@@ -1,0 +1,27 @@
+{
+  "lab": "m01l04-04",
+  "lesson": "m01l04",
+  "title": "A manual run, and a reusable one",
+  "mode": "checker",
+  "runner": "actionlint",
+  "command": "actionlint deploy.yml",
+  "main": "deploy.yml",
+  "files": [
+    "deploy.yml"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "actionlint"
+  ],
+  "tool": "actionlint",
+  "commands": [
+    {
+      "id": "lint",
+      "label": "Lint",
+      "line": "actionlint deploy.yml"
+    }
+  ],
+  "note": null
+}
